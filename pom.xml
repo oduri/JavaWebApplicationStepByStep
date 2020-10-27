@@ -12,6 +12,15 @@
             <artifactId>javaee-web-api</artifactId>
             <version>6.0</version>
             <scope>provided</scope>
+            
+        <distributionManagement>
+	    <repository>
+	      <id>deploymentRepo</id>
+	      <url>http://54.84.149.210:8081/repository/hcltraining/</url>
+	    </repository>
+        </distributionManagement>
+            
+            
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
